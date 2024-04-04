@@ -5,6 +5,12 @@
 
 using namespace std;
 
+/**
+ * Finds the longest substring without repeating characters.
+ * Uses a sliding window approach, with a set data structure. The set is used to maintain the uniqueness of each character within the sliding window.
+ * 
+ * Time complexity: O(n)
+*/
 int lsubstr(string &input) {
     int sz = input.size();
     int mlen = 0;
